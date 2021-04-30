@@ -19,6 +19,6 @@ c = folium.features.Choropleth(geo_data = url,
 				key_on = 'feature.properties.zip')
 c.add_to(m)
 
-m.save('vax.html')
+m.save('vaccinations_by_county.html')
 
 print('Finished')
